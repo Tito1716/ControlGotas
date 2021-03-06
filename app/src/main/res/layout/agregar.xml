@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/azul">
+    <TextView
+        android:id="@+id/TextoInicioGota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="@string/TextoAgregar"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/TextoDia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="@string/SeleccioDia"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/TextoInicioGota" />
+
+    <LinearLayout
+        android:id="@+id/LaySpinner"
+        app:layout_constraintTop_toTopOf="@id/TextoDia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:background="@color/black">
+
+        <Spinner
+            android:id="@+id/dropStatus"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="78dp"
+            android:layout_marginBottom="7dp"
+            android:drawSelectorOnTop="true" />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/AgregarGota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/LaySpinner"
+        android:hint="Hola"
+        android:layout_marginTop="70dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

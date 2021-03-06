@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="texto_inicio">Control de mis gotas</string>
+    <string name="ver_control">VER EL CONTROL</string>
+    <string name="agregar">AGREGAR CONTROL</string>
+    <string name="inicioagregar">AGREGAR CONTROL DE GOTA</string>
+    <string name="btnagregar">AGREGAR</string>
+    <string name="agregardia">AGREGAR DIA</string>
+    <string name="TextoAgregar">AGREGAR GOTA</string>
+    <string name="SeleccioDia">SELECCIONE EL DIA</string>
+    <string name="AgregarccioDia">AGREGAR EL DIA</string>
+    <string name="Seledia">Ingrese el dia</string>
+</resources>
